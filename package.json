@@ -1,0 +1,29 @@
+{
+  "name": "ejemplo_git",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000_\u0000d\u0000i\u0000s\u0000e\u0000n\u0000o\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasingsas/backend_diseno.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasingsas/backend_diseno/issues"
+  },
+  "homepage": "https://github.com/jasingsas/backend_diseno#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
