@@ -1,29 +1,23 @@
 {
-  "name": "ejemplo_git",
+  "name": "mern-stack-mysql",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000_\u0000d\u0000i\u0000s\u0000e\u0000n\u0000o\u0000\r\u0000 \u0000",
+  "description": "",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jasingsas/backend_diseno.git"
+    "dev": "nodemon server/index.js",
+    "start": "node server/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jasingsas/backend_diseno/issues"
-  },
-  "homepage": "https://github.com/jasingsas/backend_diseno#readme",
   "dependencies": {
-    "express": "^5.1.0",
-    "morgan": "^1.10.1",
-    "mysql2": "^3.15.3"
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "nodemon": "^2.0.19"
   }
 }
